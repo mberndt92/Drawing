@@ -14,6 +14,12 @@
 		8A10353829D10F2D00D33387 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10353729D10F2D00D33387 /* Flower.swift */; };
 		8A10353A29D10F8900D33387 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10353929D10F8900D33387 /* FlowerView.swift */; };
 		8A10353C29D1129400D33387 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10353B29D1129400D33387 /* ColorCyclingCircle.swift */; };
+		8A10353E29D2599000D33387 /* ColorCyclingCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10353D29D2599000D33387 /* ColorCyclingCircleView.swift */; };
+		8A10354029D25B6500D33387 /* ScreenBlenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10353F29D25B6500D33387 /* ScreenBlenderView.swift */; };
+		8A10354229D26BAA00D33387 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10354129D26BAA00D33387 /* BlurView.swift */; };
+		8A10354629D26D9A00D33387 /* TrapezoidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10354529D26D9A00D33387 /* TrapezoidView.swift */; };
+		8A10354829D26F7E00D33387 /* CheckerboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10354729D26F7E00D33387 /* CheckerboardView.swift */; };
+		8A10354A29D2718000D33387 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10354929D2718000D33387 /* SpirographView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,12 @@
 		8A10353729D10F2D00D33387 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
 		8A10353929D10F8900D33387 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
 		8A10353B29D1129400D33387 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
+		8A10353D29D2599000D33387 /* ColorCyclingCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircleView.swift; sourceTree = "<group>"; };
+		8A10353F29D25B6500D33387 /* ScreenBlenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBlenderView.swift; sourceTree = "<group>"; };
+		8A10354129D26BAA00D33387 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		8A10354529D26D9A00D33387 /* TrapezoidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidView.swift; sourceTree = "<group>"; };
+		8A10354729D26F7E00D33387 /* CheckerboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerboardView.swift; sourceTree = "<group>"; };
+		8A10354929D2718000D33387 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,12 @@
 				8A10353729D10F2D00D33387 /* Flower.swift */,
 				8A10353929D10F8900D33387 /* FlowerView.swift */,
 				8A10353B29D1129400D33387 /* ColorCyclingCircle.swift */,
+				8A10353D29D2599000D33387 /* ColorCyclingCircleView.swift */,
+				8A10353F29D25B6500D33387 /* ScreenBlenderView.swift */,
+				8A10354129D26BAA00D33387 /* BlurView.swift */,
+				8A10354529D26D9A00D33387 /* TrapezoidView.swift */,
+				8A10354729D26F7E00D33387 /* CheckerboardView.swift */,
+				8A10354929D2718000D33387 /* SpirographView.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -146,10 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A10354A29D2718000D33387 /* SpirographView.swift in Sources */,
 				8A10353C29D1129400D33387 /* ColorCyclingCircle.swift in Sources */,
+				8A10354229D26BAA00D33387 /* BlurView.swift in Sources */,
+				8A10354029D25B6500D33387 /* ScreenBlenderView.swift in Sources */,
+				8A10354629D26D9A00D33387 /* TrapezoidView.swift in Sources */,
 				8A10352C29D01C2600D33387 /* ContentView.swift in Sources */,
 				8A10353A29D10F8900D33387 /* FlowerView.swift in Sources */,
 				8A10352A29D01C2600D33387 /* DrawingApp.swift in Sources */,
+				8A10354829D26F7E00D33387 /* CheckerboardView.swift in Sources */,
+				8A10353E29D2599000D33387 /* ColorCyclingCircleView.swift in Sources */,
 				8A10353829D10F2D00D33387 /* Flower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
