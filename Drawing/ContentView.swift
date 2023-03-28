@@ -47,7 +47,7 @@ struct ContentView: View {
                 }
                 
             }
-            .navigationTitle("Drawing Session")
+            .navigationTitle("Drawing in Swift UI")
         }
     }
 }

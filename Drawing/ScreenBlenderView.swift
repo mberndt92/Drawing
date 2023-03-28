@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ScreenBlenderCircles: View {
     
-    @State private var amount = 0.0
+    @State private var amount = 0.5
     
     var body: some View {
         ZStack {
@@ -44,6 +44,8 @@ struct ScreenBlenderView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.black)
         .ignoresSafeArea()
+        .navigationTitle("Screen Blender Circles")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

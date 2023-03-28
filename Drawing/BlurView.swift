@@ -22,6 +22,8 @@ struct BlurView: View {
             Slider(value: $amount)
                 .padding()
         }
+        .navigationTitle("Blur")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

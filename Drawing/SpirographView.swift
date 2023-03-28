@@ -99,6 +99,8 @@ struct SpirographView: View {
                     .padding([.horizontal])
             }
         }
+        .navigationTitle("Spirograph")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

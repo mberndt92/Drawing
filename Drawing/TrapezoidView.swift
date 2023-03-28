@@ -32,14 +32,17 @@ struct TrapezoidView: View {
     @State private var insetAmount = 50.0
     
     var body: some View {
-        Trapezoid(insetAmount: insetAmount)
-            .frame(width: 200, height: 200)
-            .onTapGesture {
-                withAnimation {
-                    insetAmount = Double.random(in: 10...90)
+        VStack {
+            Trapezoid(insetAmount: insetAmount)
+                .frame(width: 200, height: 200)
+                .onTapGesture {
+                    withAnimation {
+                        insetAmount = Double.random(in: 10...90)
+                    }
                 }
-            }
-        
+        }
+        .navigationTitle("Trapezoid")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
