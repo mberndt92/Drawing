@@ -28,7 +28,6 @@ struct ColorCyclingCircle: View {
                         ),
                         lineWidth: 2
                     )
-                //                    .stroke(color(for: value, brightness: 1), lineWidth: 2)
             }
         }
         .drawingGroup()

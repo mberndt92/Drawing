@@ -12,7 +12,7 @@ struct BlurView: View {
     
     var body: some View {
         VStack {
-            Image("paul_hudson")
+            Image("mberndt")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 200, height: 200)

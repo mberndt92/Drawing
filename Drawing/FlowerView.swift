@@ -15,7 +15,6 @@ struct FlowerView: View {
     var body: some View {
         VStack {
             Flower(petalOffset: petalOffset, petalWidth: petalWidth)
-//                .stroke(.red, lineWidth: 1)
                 .fill(.teal, style: FillStyle(eoFill: true))
             
             Text("Offset")
