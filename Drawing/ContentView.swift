@@ -12,6 +12,7 @@ import SwiftUI
 struct ContentView: View {
     
     enum Sessions: String, CaseIterable {
+        case Arc
         case Blur
         case Checkerboard
         case ColorCyclingCircle
@@ -24,6 +25,7 @@ struct ContentView: View {
         @ViewBuilder
         func view() -> some View {
             switch self {
+            case .Arc: ArcView()
             case .Blur: BlurView()
             case .Checkerboard: CheckerboardView()
             case .ColorCyclingCircle: ColorCyclingCircleView()
