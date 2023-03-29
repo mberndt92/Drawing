@@ -19,6 +19,7 @@
 		8A10354829D26F7E00D33387 /* CheckerboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10354729D26F7E00D33387 /* CheckerboardView.swift */; };
 		8A10354A29D2718000D33387 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10354929D2718000D33387 /* SpirographView.swift */; };
 		8A10354E29D3B3C800D33387 /* ArrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10354D29D3B3C800D33387 /* ArrorView.swift */; };
+		8A10355029D45FB700D33387 /* ColorCyclingRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10354F29D45FB700D33387 /* ColorCyclingRectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		8A10354729D26F7E00D33387 /* CheckerboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerboardView.swift; sourceTree = "<group>"; };
 		8A10354929D2718000D33387 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 		8A10354D29D3B3C800D33387 /* ArrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrorView.swift; sourceTree = "<group>"; };
+		8A10354F29D45FB700D33387 /* ColorCyclingRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingRectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				8A10354729D26F7E00D33387 /* CheckerboardView.swift */,
 				8A10354929D2718000D33387 /* SpirographView.swift */,
 				8A10354D29D3B3C800D33387 /* ArrorView.swift */,
+				8A10354F29D45FB700D33387 /* ColorCyclingRectangleView.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				8A10352C29D01C2600D33387 /* ContentView.swift in Sources */,
 				8A10353A29D10F8900D33387 /* FlowerView.swift in Sources */,
 				8A10352A29D01C2600D33387 /* DrawingApp.swift in Sources */,
+				8A10355029D45FB700D33387 /* ColorCyclingRectangleView.swift in Sources */,
 				8A10354829D26F7E00D33387 /* CheckerboardView.swift in Sources */,
 				8A10353E29D2599000D33387 /* ColorCyclingCircleView.swift in Sources */,
 				8A10354E29D3B3C800D33387 /* ArrorView.swift in Sources */,

@@ -15,6 +15,7 @@ struct ContentView: View {
         case Blur
         case Checkerboard
         case ColorCyclingCircle
+        case ColorCyclingRectangle
         case Flower
         case ScreenBlender
         case Spirograph
@@ -26,6 +27,7 @@ struct ContentView: View {
             case .Blur: BlurView()
             case .Checkerboard: CheckerboardView()
             case .ColorCyclingCircle: ColorCyclingCircleView()
+            case .ColorCyclingRectangle: ColorCyclingRectangleView()
             case .Flower: FlowerView()
             case .ScreenBlender: ScreenBlenderView()
             case .Spirograph: SpirographView()
